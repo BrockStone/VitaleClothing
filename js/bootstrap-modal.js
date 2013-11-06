@@ -48,7 +48,7 @@
 
         this.$element.trigger(e)
 
-        if (this.isShown || e.isDefaultPrevented()) return
+        if (this.isShown || e.isDefaultPrevented()) returnd
 
         this.isShown = true
 
