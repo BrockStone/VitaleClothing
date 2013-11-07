@@ -104,21 +104,22 @@ footer h3{
 }
 
 #footerlogo{
+	margin-bottom: 50px;
 
 }
 
 #footer{
 	float: left;
-	 width: 100%;
+	width: 100%;
    	margin: 0;
-   padding: 0;
-  
-   bottom: 0;
-   left: 0;
+   	padding: 0;
+  	bottom: 0;
+   	left: 0;
 	height: 250px;
 	text-align: center;
 	background-color: #86D7EF;
 	position: relative;
+	margin-top: 80px;
 
 	
 	
@@ -134,5 +135,19 @@ footer h3{
 
 .social{
 	margin-top: 15px;
+}
+
+.marketing h1,.marketing h3{
+	font-family: 'Quicksand', sans-serif;
+}
+
+.marketing h1{
+	margin-bottom: 40px;
+}
+
+#socialicons ul li{
+	margin-top: 50px;
+	display: inline;
+	margin-right: 30px;
 }
 
