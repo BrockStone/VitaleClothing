@@ -109,8 +109,8 @@ footer h3{
 }
 
 #footer{
-	float: left;
-	width: 1200px;
+	
+	width: 100%;
    	margin: 0;
    	padding: 0;
   	bottom: 0;
