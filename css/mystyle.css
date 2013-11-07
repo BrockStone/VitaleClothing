@@ -104,17 +104,34 @@ footer h3{
 }
 
 #footerlogo{
-	margin-left: -50px;
+
 }
 
 #footer{
-	height: 150px;
+	float: left;
+	 width: 100%;
+   	margin: 0;
+   padding: 0;
+  
+   bottom: 0;
+   left: 0;
+	height: 250px;
 	text-align: center;
-	left: 0;
-	width: 100%;
-	margin-bottom: 0px;
+	background-color: #86D7EF;
+	position: relative;
+
+	
+	
 }
 
-#footercontainer{
+/*#footercontainer{
 	width: 100%;
+}*/
+
+#footerp{
+	margin-top: 50px;
+}
+
+.social{
+	margin-top: 15px;
 }
