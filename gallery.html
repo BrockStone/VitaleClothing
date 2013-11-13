@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  
+  <title>Grid Responsive Gallery</title>
+  
+   <!-- STYLE FOR THE PLUGIN -->   
+  <link rel="stylesheet" href="css/gridGallery.css" />
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  
+
+  <style>
+     body{
+        background: url('imgDemo/bg2.png');
+        _background: #f0f0f0;
+      }
+  
+      header{
+        margin: 20px 0;
+        padding: 20px;
+        overflow: hidden;
+      }
+    .container{
+        width: 960px;
+        margin: 40px auto;
+        background: white;
+        border-radius: 8px;
+        border: 1px solid #C0C1C3;
+      }
+  </style>
+  
+  <!-- scripts at bottom of page -->
+
+</head>
+<body>
+
+
+  <div class="container">
+
+  <header>
+  
+    <div style="float:left">
+      <a href="#"><img src="img/logo.png" alt="trendway wall" /></a>
+    </div>
+
+    <ul class="nav nav-pills" style="float:right">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="http://www.vitaleclothing.bigcartel.com/">Shop</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+
+  </header>
+  <br />
+
+
+    <div id="grid">
+      
+        <div class="box" data-category="NEW">
+            <div data-thumbnail="gallery/new/thumbnails/new1.png" ></div>
+            
+            <div data-image="gallery/new/new1.png" ></div>
+            
+            <div class="thumbnail-caption">
+                  <h3>New</h3>
+            </div>
+
+            <div class="lightbox-text">
+                  New mens tee
+            </div>
+        </div>
+      
+        <div class="box" data-category="NEW">
+            <div data-thumbnail="gallery/new/thumbnails/story.jpg" ></div>
+
+            <div data-image="gallery/new/story.jpg" ></div>
+            
+            <div class="thumbnail-caption">
+              <h3>NEW Swell tee</h3>
+              
+            </div>
+
+            <div class="lightbox-text">
+                  NEW Swell tee Available now
+            </div>
+        </div>
+      
+        <div class="box" data-category="Men">
+            <div data-thumbnail="gallery/men/thumbnails/men1.png" ></div>
+
+            <div data-image="gallery/men/men1.png" ></div>
+            
+            <div class="thumbnail-caption">
+              <h3>Something</h3>
+            </div>
+            
+            <div class="lightbox-text">
+                    NEW ?..
+            </div>
+        </div>
+      
+        
+      
+    </div> <!-- #container -->
+    <hr />
+    <div style="text-align:center;">
+       <footer class="row">
+    
+      
+      <div class="row">
+       
+          <p>&copy; 2013 Vitale Clothing &middot;<a href="http://instagram.com/brock_stone"> Brock Stone Design</a></p>
+        
+        <div class="span12" id="social">
+          <ul class="">
+            <li><a href="http://instagram.com/vitaleclothingofficial"><img src="img/insta.png"></a></li>
+            <li><a href="https://www.facebook.com/VitaleClothing"><img src="img/facebook.png"></a></li>
+            <li><a href="https://twitter.com/VitaleClothing"><img src="img/twitter.png"></a></li>
+          </ul>
+        </div>
+      </div>
+    
+  </footer>
+  </div>
+
+<!-- SCRIPTS FOR THE PLUGIN -->
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/rotate-patch.js"></script>
+<script src="js/gridGallery.min.js"></script>
+
+<script>
+  
+    $('document').ready(function(){
+        //INITIALIZE THE PLUGIN
+        $('#grid').grid({
+	          columnWidth: 240, //The width of each columns, if you set it to 'auto' it will use the columns instead
+	          captionType: 'grid-fade', // 'grid', 'grid-fade', 'classic' the type of caption effect
+      	});
+
+    });    
+       
+</script>
+    
+</body>
+</html>
