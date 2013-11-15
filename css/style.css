@@ -5,3 +5,15 @@
 	margin-bottom: 5px;
 }
 
+.featured{
+	
+	width: 420px;
+	float: right;
+	margin-left: 20px;
+
+}
+
+footer{
+	clear: both;
+}
+
